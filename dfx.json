@@ -3,19 +3,6 @@
     "metascore_demo_game": {
       "main": "src/metascore_demo_game/main.mo",
       "type": "motoko"
-    },
-    "metascore_demo_game_assets": {
-      "dependencies": [
-        "metascore_demo_game"
-      ],
-      "frontend": {
-        "entrypoint": "src/metascore_demo_game_assets/src/index.html"
-      },
-      "source": [
-        "src/metascore_demo_game_assets/assets",
-        "dist/metascore_demo_game_assets/"
-      ],
-      "type": "assets"
     }
   },
   "defaults": {
